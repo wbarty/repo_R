@@ -69,16 +69,16 @@ print(mf1_)
 
 # end_date:		yyyy-mm-dd  Retrieve data rows up to and including the specified end date.
 
-# order:  		asc/desc    Return data in ascending or descending order of date. Default is desc.
+# order:  		ascending/descending  Return data in ascending or descending order of date. Default is desc.
 
 # collapse: 	# daily
 		  		# weekly
           		# monthly
          		# quarterly
           		# annual
-      			# Change the sampling frequency of the returned data. Default is none; i.e., data is returned in its original granularity.
+      			# Change the sampling frequency of the returned data. Default is none, data is returned in its original peeriodicity.
 
-# transform:		Perform elementary calculations on the data prior to downloading. Default is none. Calculation options are described below.
+# transform:		Perform pre-calculations on the data prior to downloading. Default is none.
 
 
 
